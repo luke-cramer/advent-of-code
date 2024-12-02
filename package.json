@@ -1,0 +1,11 @@
+{
+  "type": "module",
+  "scripts": {
+    "create": "bash -c 'mkdir $1/day$2 && touch $1/day$2/input.txt && touch $1/day$2/input.js && touch $1/day$2/script.js && touch $1/day$2/example.txt' --",
+    "watch": "bash -c 'nodemon $1/day$2/script.js' --"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.2",
+    "nodemon": "^3.0.2"
+  }
+}
